@@ -6,10 +6,13 @@ import { getLogs } from '../../actions/logActions'
 import PropTypes from 'prop-types'
 
 
-const Logs = ({log: {logs, loading}}) => {
+const Logs = ({log: {logs, loading}}, getLogs) => {
     useEffect(() => {
+
+        // eslint-disable-next-line
         getLogs();
-    }, []);
+
+    }, [getLogs]);
 
 
     if(loading || logs === null){

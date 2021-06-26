@@ -7,6 +7,7 @@ const TechListModal = () => {
 
 
     useEffect(() => {
+        // eslint-disable-next-line
         getTechs();
     }, []);
 

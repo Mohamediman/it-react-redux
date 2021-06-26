@@ -1,50 +1,28 @@
 {
-    "logs": [
-        {
-            "id": 1,
-            "tech": "Mohamed",
-            "message": "Workstation 01 not working",
-            "attention": true,
-            "date": "03-04-2020"
-        },
-        {
-            "id": 2,
-            "tech": "Abdi",
-            "message": "Workstation 0156 is up and running",
-            "attention": false,
-            "date": "05-04-2020"
-        },
-        {
-            "id": 3,
-            "tech": "Ibrahim",
-            "message": "Workstation 351 is up and running",
-            "attention": false,
-            "date": "07-04-2020"
-        },
-        {
-            "id": 4,
-            "tech": "Ahmed",
-            "message": "Workstation 451 not working",
-            "attention": true,
-            "date": "06-04-2020"
-        }
-    ],
-    "techs": [
-        {
-            "id": 1,
-            "firstName": "mohamed",
-            "lastName": "Abdi"
-        },
-        {
-            "id": 2,
-            "firstName": "Yussuf",
-            "lastName": "Ibrahim"
-        },
-        {
-            "id": 3,
-            "firstName": "Hassan",
-            "lastName": "Adan"
-        }
-
-    ]
+  "logs": [
+    {
+      "message": "fixing 0023 laptip 00007",
+      "attention": false,
+      "tech": "Abdi Ibrahim",
+      "date": "2021-06-26T21:14:28.112Z",
+      "id": 1
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "firstName": "mohamed",
+      "lastName": "Abdi"
+    },
+    {
+      "id": 2,
+      "firstName": "Yussuf",
+      "lastName": "Ibrahim"
+    },
+    {
+      "id": 3,
+      "firstName": "Hassan",
+      "lastName": "Adan"
+    }
+  ]
 }
