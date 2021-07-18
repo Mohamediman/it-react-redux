@@ -6,13 +6,11 @@ import { getLogs } from '../../actions/logActions'
 import PropTypes from 'prop-types'
 
 
-const Logs = ({log: {logs, loading}}, getLogs) => {
+const Logs = ({log: {logs, loading}, getLogs}) => {
     useEffect(() => {
-
-        // eslint-disable-next-line
         getLogs();
-
-    }, [getLogs]);
+        // eslint-disable-next-line
+    }, []);
 
 
     if(loading || logs === null){
@@ -39,4 +37,7 @@ const mapStateToProps =  state => ({
     log: state.log
 })
 
-export default connect(mapStateToProps, getLogs)(Logs)
+export default connect(
+                mapStateToProps, 
+                { getLogs }
+                )(Logs)

@@ -1,28 +1,32 @@
 {
   "logs": [
     {
-      "message": "fixing 0023 laptip 00007",
+      "id": 1,
+      "message": "window station  0023 is fixed and running",
       "attention": false,
+      "tech": "Hussein Abdi",
+      "date": "2021-06-27T05:16:06.160Z"
+    },
+    {
+      "id": 2,
+      "message": "workstation 3200 is down ",
+      "attention": true,
+      "tech": "Mohamed Iman",
+      "date": "2021-06-27T16:40:21.277Z"
+    },
+    {
+      "message": "offie 00024 is broken",
+      "attention": true,
       "tech": "Abdi Ibrahim",
-      "date": "2021-06-26T21:14:28.112Z",
-      "id": 1
+      "date": "2021-06-27T16:40:05.371Z",
+      "id": 3
     }
   ],
   "techs": [
     {
-      "id": 1,
       "firstName": "mohamed",
-      "lastName": "Abdi"
-    },
-    {
-      "id": 2,
-      "firstName": "Yussuf",
-      "lastName": "Ibrahim"
-    },
-    {
-      "id": 3,
-      "firstName": "Hassan",
-      "lastName": "Adan"
+      "lastName": "iman",
+      "id": 1
     }
   ]
 }
